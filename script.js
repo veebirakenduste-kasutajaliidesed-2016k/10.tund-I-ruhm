@@ -64,5 +64,10 @@ var printTweets = function(ajaxStatuses){
        .isotope( 'prepended', temp )
        .isotope('layout');
 
+  //get new every 5 seconds
+  window.setTimeout(function(){
+    //getTweets sees peaks kontrollima ja meeles hoidma millised tweedid on olemas
+    getTweets();
+  }, 5000);
 
 };
