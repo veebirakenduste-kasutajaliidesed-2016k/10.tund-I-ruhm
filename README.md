@@ -1,6 +1,6 @@
 ### ./config.php
 
-´´´php
+```php
 <?php
 
   $config = array(
@@ -11,4 +11,4 @@
   );
 
 ?>
-´´´ 
+```
